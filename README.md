@@ -17,7 +17,9 @@ These are the trained models for **LoGiPT**.
 - [B]: The training data, which can be 'proofwriter' or 'prontoqa'.
 
 All models are organised in Vicuna-style and trained by [FastChat-0.2.30](https://github.com/lm-sys/FastChat).
-We adopt the evaluation scripts from [Logic-LM](https://github.com/teacherpeterpan/Logic-LLM).
+
+## Credit
+We adopt the evaluation scripts from [Logic-LM](https://github.com/teacherpeterpan/Logic-LLM). Thanks for your great work, Logic-LM Team!
 
 ## Dataset Details
 
