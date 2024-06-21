@@ -1,7 +1,15 @@
 # LoGiPT
 The official implementation of NAACL'24 paper: [Language Models can be Deductive Solvers](https://aclanthology.org/2024.findings-naacl.254.pdf).
 
-## Model Details
+## Training Data
+
+These are the training data for **LoGiPT**.
+- LoGiPT-data-ProofWriter.json: Instruction-tuning data for LoGiPT constructed from ProofWriter.
+- LoGiPT-data-PrOntoQA.json: Instruction-tuning data for LoGiPT constructed from PrOntoQA.
+
+All training examples are organised in Json-format and Vicuna-style in [jzfeng/LoGiPT-data](https://huggingface.co/datasets/jzfeng/LoGiPT-data).
+
+## Trained Models
 
 These are the trained models for **LoGiPT**.
 
@@ -20,14 +28,6 @@ All models are organised in Vicuna-style and trained by [FastChat-0.2.30](https:
 
 ## Credit
 We adopt the evaluation scripts from [Logic-LM](https://github.com/teacherpeterpan/Logic-LLM). Thanks for your great work, Logic-LM Team!
-
-## Dataset Details
-
-These are the training data for **LoGiPT**.
-- LoGiPT-data-ProofWriter.json: Instruction-tuning data for LoGiPT constructed from ProofWriter.
-- LoGiPT-data-PrOntoQA.json: Instruction-tuning data for LoGiPT constructed from PrOntoQA.
-
-All training examples are organised in Json-format and Vicuna-style in [jzfeng/LoGiPT-data](https://huggingface.co/datasets/jzfeng/LoGiPT-data).
 
 ### If you find these models and data helpful, please cite our NAACL'24 paper: (or Arxiv version: https://arxiv.org/abs/2311.06158)
 ```shell
